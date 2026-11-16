@@ -1,0 +1,38 @@
+.chart svg {
+  width: 100%;
+  height: auto;
+  overflow: visible;
+}
+
+.chart .bar {
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.chart .bar:hover,
+.chart .bar.active {
+  opacity: 0.75;
+}
+
+.chart text {
+  font-size: 11px;
+  fill: var(--bs-secondary-color);
+}
+
+.legend-swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  margin-right: 6px;
+}
+
+.kpi-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.table td,
+.table th {
+  vertical-align: middle;
+}
